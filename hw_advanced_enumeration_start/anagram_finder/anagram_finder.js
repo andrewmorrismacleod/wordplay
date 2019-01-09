@@ -1,5 +1,5 @@
 const AnagramFinder = function (word) {
-  this.word = word
+  this.word = word;
   this.alphabetisedWord = this.word.toLowerCase().split('').sort().join('');
 }
 
